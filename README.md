@@ -20,3 +20,4 @@ Cognitive Robotics Lab (COROLAB), School of Computer Science, University of Manc
 
 ### Visiting Scholars
 - Debora Zanatto (Plymouth University)
+- Juan G Victores (Carlos III de Madrid University)
