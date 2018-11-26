@@ -4,6 +4,7 @@ COgnitive RObotics LAB (COROLAB), School of Computer Science, University of Manc
 
 ## Members
 
+### Group Leader
 - Angelo Cangelosi (Professor of Machine Learning and Robotics)
 
 ### Postdoctoral Researchers
@@ -17,6 +18,7 @@ COgnitive RObotics LAB (COROLAB), School of Computer Science, University of Manc
 - Marta Romeo (PhD student, H2020 MoveCare project)
 - Gabriella Pizzuto (ESR/PhD student, H2020 DCOMM ETN)
 - Baris Serhan (ESR/PhD student, H2020 DCOMM ETN)
+- Jacopo De Berardinis
 - vacancy for PhD (US THRIVE++ project)
 - vacancy for PhD in HRI for nuclear decommisiong robots. Please contact Angelo is you are interested in this PhD opportunity
 
