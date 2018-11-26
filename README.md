@@ -1,6 +1,6 @@
-# Cognitive Robotics Lab (COROLAB)
+# COgnitive RObotics LAB (COROLAB)
 
-Cognitive Robotics Lab (COROLAB), School of Computer Science, University of Manchester
+COgnitive RObotics LAB (COROLAB), School of Computer Science, University of Manchester
 
 ## Members
 
