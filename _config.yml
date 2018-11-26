@@ -1,1 +1,12 @@
-theme: jekyll-theme-architect
+theme: jekyll-theme-slate
+
+title: COROLAB
+tagline: corolab
+name: corolab
+
+url: "http://corolab.github.io"
+baseurl: ""
+
+# SEO
+twitter:
+username: corolab
