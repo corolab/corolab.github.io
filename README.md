@@ -4,6 +4,8 @@ Cognitive Robotics Lab (COROLAB), School of Computer Science, University of Manc
 
 ## Members
 
+- Angelo Cangelosi (Professor of Machine Learning and Robotics at the University of Manchester)
+
 ### Postdoctoral Researchers
 - Gi Hyun Lim (H2020 STRoNA Fellowship)
 - vacancy (H2020 MoveCare project). Please contact Angelo is you are interested in this position
