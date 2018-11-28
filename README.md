@@ -5,23 +5,25 @@ COgnitive RObotics LAB (COROLAB), School of Computer Science, University of Manc
 ## Members
 
 ### Group Leader
-- Angelo Cangelosi (Professor of Machine Learning and Robotics)
+- Angelo Cangelosi
 
 ### Postdoctoral Researchers
-- Gi Hyun Lim (H2020 STRoNA Fellowship)
-- vacancy (H2020 MoveCare project). Please contact Angelo is you are interested in this position
-- vacancy (US THRIVE++ project). Please contact Angelo is you are interested in this position
+- Gi Hyun Lim
 
 ### PhD Students
-- Mohammad Thabet (ESR/PhD student, H2020 SECURE ETN)
-- Samuele Vinanzi (PhD student, HONDA DeCIFER project)
-- Marta Romeo (PhD student, H2020 MoveCare project)
-- Gabriella Pizzuto (ESR/PhD student, H2020 DCOMM ETN)
-- Baris Serhan (ESR/PhD student, H2020 DCOMM ETN)
-- Jacopo De Berardinis
-- vacancy for PhD (US THRIVE++ project)
-- vacancy for PhD in HRI for nuclear decommisiong robots. Please contact Angelo is you are interested in this PhD opportunity
+- Mohammad Thabet
+- Samuele Vinanzi
+- Marta Romeo
+- Gabriella Pizzuto
+- Baris Serhan
+- Jacopo de Berardinis
 
 ### Visiting Scholars
 - Debora Zanatto (Plymouth University)
 - Juan G Victores (Carlos III de Madrid University)
+
+## Vacancies
+- PhD (US THRIVE++ project)
+- PhD in HRI for nuclear decommisiong robots. Please contact Angelo is you are interested in this PhD opportunity
+- Postdoctoral (US THRIVE++ project). Please contact Angelo is you are interested in this position
+- Postdoctoral (H2020 MoveCare project). Please contact Angelo is you are interested in this position
