@@ -1,12 +1,29 @@
-theme: jekyll-theme-architect
+# Site settings
+title: COGNITIVE ROBOTICS LAB (COROLAB)
+email: corolabuom@gmail.com
+description: "School of Computer Science, University of Manchester"
 
-title: COROLAB
-tagline: corolab
-name: corolab
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 6b3090
+  secondary: 783a9c
+  secondary-dark: 000
 
-url: "http://corolab.github.io"
-baseurl: ""
+# Social networks usernames (many available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/corolab_uom
+  - title: github
+    url: http://github.com/corolab
+  - title: envelope
+    url: mailto:corolabuom@gmail.com
 
-# SEO
-twitter:
-username: corolab
+# Postal address (add as many lines as necessary)
+address:
+  - line: Kilburn Building
+  - line: University of Manchester, Oxford Rd
+  - line: Manchester M13 9PL
+
+# Build settings
+markdown: kramdown
+permalink: pretty
