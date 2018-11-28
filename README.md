@@ -5,7 +5,7 @@ COgnitive RObotics LAB (COROLAB), School of Computer Science, University of Manc
 ## Members
 
 ### Group Leader
-- Angelo Cangelosi
+- [Angelo Cangelosi](https://www.research.manchester.ac.uk/portal/angelo.cangelosi.html)
 
 ### Postdoctoral Researchers
 - Gi Hyun Lim
