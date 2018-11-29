@@ -1,4 +1,4 @@
-# COROLAB website
+# CoRoLab UoM
 
 Currently hosted at https://corolab.github.io
 
