@@ -27,3 +27,9 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Collections
+collections:
+    members:
+        title: Members
+        output: true
