@@ -40,7 +40,7 @@ The [_includes](/_includes) folder contains plain `.html` files which should be 
 - [members.html](/_includes/members.html): Edit this file manually only if the above does not apply (not `PhD Students`).
 
 ### img/
-The [img/](/img/) folder is the place to upload images. You'll probably be using its [img/portfolio/](/img/portfolio/) folder most, to upload profile images linked from [_members/](_members/) and [_includes/members.html](/_includes/members.html).
+The [img/](/img/) folder is the place to upload images. You'll probably be using its [img/portfolio/](/img/portfolio/) folder most, to upload profile images linked from [_members/](_members/) and [_includes/members.html](/_includes/members.html). **Note**: Images must currently be 720x720.
 
 ## Final comments
 All the files and folders that have not previously been mentioned here should probably be maintained static. If there are any doubts or comments... please file an [issue](https://github.com/corolab/corolab.github.io/issues)!
