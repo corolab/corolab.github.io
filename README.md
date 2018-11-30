@@ -23,12 +23,24 @@ The [_config.yml](/_config.yml) file is also very important. It contains:
 - Some basic color settings
 - Links to your social media, where you can add new links for free and will be rendered nicely
 
+### _members/
+The [_members/](_members) folder contains one file per member, with the following format:
+```
+---
+type: member
+name: Jane Doe
+picture: JaneDoe.jpg
+website: https://www.google.com
+---
+```
+Where `picture` (only file name, see `img/` below) and `website` lines are optional. They are automatically added as `PhD Students`. See below if this does not apply.
+
 ### _includes/
 The [_includes](/_includes) folder contains plain `.html` files which should be rather static, but can be modified freely.
-- [members.html](/_includes/members.html): This is the only file you will probably be editing manually. Once [#3](https://github.com/corolab/corolab.github.io/issues/3) is done, the workflow will change and this description should be updated.
+- [members.html](/_includes/members.html): Edit this file manually only if the above does not apply (not `PhD Students`).
 
 ### img/
-The [img/](/img/) folder is the place to upload images. You'll probably be using it's [img/portfolio/](/img/portfolio/) folder most, to upload profile images linked from [members.html](/_includes/members.html).
+The [img/](/img/) folder is the place to upload images. You'll probably be using its [img/portfolio/](/img/portfolio/) folder most, to upload profile images linked from [_members/](_members/) and [_includes/members.html](/_includes/members.html).
 
 ## Final comments
 All the files and folders that have not previously been mentioned here should probably be maintained static. If there are any doubts or comments... please file an [issue](https://github.com/corolab/corolab.github.io/issues)!
