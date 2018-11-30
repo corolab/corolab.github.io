@@ -73,7 +73,7 @@
             {% for member in include.collection %}
             {% assign var = forloop.index0 | modulo:2 %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal">
+                    <a {% if member.website %}href={{member.website}}{% endif %} class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
