@@ -68,97 +68,25 @@
                 </div>
             </div>
 
-             <div class="row">
+            <div class="row">
 
+            {% for member in include.collection %}
+            {% assign var = forloop.index0 | modulo:2 %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal">
+                    <a {% if member.website %}href={{member.website}}{% endif %} class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/profile.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/{% if member.picture %}{{member.picture}}{% else %}profile.png{% endif %}" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Mohammad Thabet</h4>
+                        <h4>{{member.name}}</h4>
                         <!--p class="text-muted">Multimedia Creation</p-->
                     </div>
                 </div>
-
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/profile.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Samuele Vinanzi</h4>
-                        <!--p class="text-muted">Web Design / Wordpress</p-->
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/profile.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Marta Romeo</h4>
-                        <!--p class="text-muted">Web Design / Wordpress</p-->
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="https://www.research.manchester.ac.uk/portal/gabriella.pizzuto.html" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/profile.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Gabriella Pizzuto</h4>
-                        <!--p class="text-muted">Web Design / Wordpress</p-->
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="https://www.research.manchester.ac.uk/portal/baris.serhan.html" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/profile.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Baris Serhan</h4>
-                        <!--p class="text-muted">Web Design / Wordpress</p-->
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="https://jonnybluesman.github.io/" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/profile.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Jacopo de Berardinis</h4>
-                        <!--p class="text-muted">Web Design / Wordpress</p-->
-                    </div>
-                </div>
+            {% endfor %}
 
             </div>
 
