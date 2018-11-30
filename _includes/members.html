@@ -79,7 +79,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/profile.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/{% if member.picture %}{{member.picture}}{% else %}profile.png{% endif %}" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>{{member.name}}</h4>
