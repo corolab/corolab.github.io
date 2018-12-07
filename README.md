@@ -42,5 +42,11 @@ The [_includes](/_includes) folder contains plain `.html` files which should be 
 ### img/
 The [img/](/img/) folder is the place to upload images. You'll probably be using its [img/portfolio/](/img/portfolio/) folder most, to upload profile images linked from [_members/](_members/) and [_includes/members.html](/_includes/members.html). **Note**: Images must currently be 720x720.
 
+## To add a new section
+Here is how to add a new (static) section (as done [here](https://github.com/corolab/corolab.github.io/commit/c5ceb7729522893e14005cc4d9e4ffc93ef0a88d)):
+- Add some template plain html code at [_includes](/_includes).
+- Include it from within [_layouts/default.html](_layouts/default.html).
+- Add a bullet point with a link to it from within [_includes/header.html](_includes/header.html).
+
 ## Final comments
 All the files and folders that have not previously been mentioned here should probably be maintained static. If there are any doubts or comments... please file an [issue](https://github.com/corolab/corolab.github.io/issues)!
