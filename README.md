@@ -37,6 +37,7 @@ Where `picture` (only file name, see `img/` below) and `website` lines are optio
 
 ### _includes/
 The [_includes](/_includes) folder contains plain `.html` files which should be rather static, but can be modified freely.
+- [about.html](/_includes/about.html): Edit this file manually to update the general research group "about" section.
 - [members.html](/_includes/members.html): Edit this file manually only if the above does not apply (not `PhD Students`).
 
 ### img/
