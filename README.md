@@ -42,12 +42,14 @@ The [_includes](/_includes) folder mainly contains plain `.html` files which sho
 - [about.html](/_includes/about.html): Edit this file manually to update the general research group "about" section.
 - [members.html](/_includes/members.html): For `PhD Students`, use the mechanism stated for `_members/`, [above](#_members). For other cases, edit this file manually to update the general research group "about" section.
 - [robots.html](/_includes/robots.html): Edit this file manually to update the general research group "robots" section.
+- [projects.html](/_includes/projects.html): Edit this file manually to update the general research group "projects" section.
 - [_includes/css/agency.css](_includes/css/agency.css): A `.css` file to which fields are sometimes added for new sections.
 
 ### img/
 The [img/](/img/) folder is the place to upload images. **Note**: Images must currently be 720x720.
 - [img/members/](/img/members/): You'll probably be using this folder most, to upload profile images linked from [_members/](_members/) and [_includes/members.html](/_includes/members.html).
 - [img/robots/](/img/robots/): Images linked from [_includes/robots.html](/_includes/robots.html).
+- [img/projects/](/img/projects/): Images linked from [_includes/projects.html](/_includes/projects.html).
 
 ## How to add a new section
 Here is how to add a new (static) section, as was done for [about](https://github.com/corolab/corolab.github.io/commit/c5ceb77), [robots](https://github.com/corolab/corolab.github.io/commit/efd6f68), or [projects](https://github.com/corolab/corolab.github.io/commit/30077f7):
