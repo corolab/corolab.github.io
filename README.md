@@ -41,7 +41,7 @@ Where `picture` (only file name, see `img/` below) and `website` lines are optio
 The [_includes](/_includes) folder mainly contains plain `.html` files which should be rather static, but can be modified freely.
 - [about.html](/_includes/about.html): Edit this file manually to update the general research group "about" section.
 - [members.html](/_includes/members.html): For `PhD Students`, use the mechanism stated for `_members/`, [above](#_members). For other cases, edit this file manually to update the general research group "about" section.
-- [robots.html](/_includes/about.html): Edit this file manually to update the general research group "robots" section.
+- [robots.html](/_includes/robots.html): Edit this file manually to update the general research group "robots" section.
 - [_includes/css/agency.css](_includes/css/agency.css): A `.css` file to which fields are sometimes added for new sections.
 
 ### img/
