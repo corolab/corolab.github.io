@@ -41,6 +41,7 @@ Where `picture` (only file name, see `img/` below) and `website` lines are optio
 The [_includes](/_includes) folder contains plain `.html` files which should be rather static, but can be modified freely.
 - [about.html](/_includes/about.html): Edit this file manually to update the general research group "about" section.
 - [members.html](/_includes/members.html): For `PhD Students`, use the mechanism stated for `_members/`, [above](#_members). For other cases, edit this file manually to update the general research group "about" section.
+- [robots.html](/_includes/about.html): Edit this file manually to update the general research group "robots" section.
 
 ### img/
 The [img/](/img/) folder is the place to upload images. You'll probably be using its [img/portfolio/](/img/portfolio/) folder most, to upload profile images linked from [_members/](_members/) and [_includes/members.html](/_includes/members.html). **Note**: Images must currently be 720x720.
