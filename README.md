@@ -38,20 +38,22 @@ website: https://www.google.com
 Where `picture` (only file name, see `img/` below) and `website` lines are optional. They are automatically added as `PhD Students`. See below if this does not apply.
 
 ### _includes/
-The [_includes](/_includes) folder contains plain `.html` files which should be rather static, but can be modified freely.
+The [_includes](/_includes) folder mainly contains plain `.html` files which should be rather static, but can be modified freely.
 - [about.html](/_includes/about.html): Edit this file manually to update the general research group "about" section.
 - [members.html](/_includes/members.html): For `PhD Students`, use the mechanism stated for `_members/`, [above](#_members). For other cases, edit this file manually to update the general research group "about" section.
 - [robots.html](/_includes/about.html): Edit this file manually to update the general research group "robots" section.
+- [_includes/css/agency.css](_includes/css/agency.css): A `.css` file to which fields are sometimes added for new sections.
 
 ### img/
 The [img/](/img/) folder is the place to upload images. You'll probably be using its [img/members/](/img/members/) folder most, to upload profile images linked from [_members/](_members/) and [_includes/members.html](/_includes/members.html). **Note**: Images must currently be 720x720.
 
 ## How to add a new section
-Here is how to add a new (static) section, as was done [here](https://github.com/corolab/corolab.github.io/commit/c5ceb77) or [here](https://github.com/corolab/corolab.github.io/commit/efd6f68):
+Here is how to add a new (static) section, as was done for [about](https://github.com/corolab/corolab.github.io/commit/c5ceb77), [robots](https://github.com/corolab/corolab.github.io/commit/efd6f68), or [projects](https://github.com/corolab/corolab.github.io/commit/30077f7):
 - Add some template plain html code at [_includes](/_includes).
 - Include it from within [_layouts/default.html](_layouts/default.html).
 - Add a bullet point with a link to it from within [_includes/header.html](_includes/header.html).
 - In some cases, you may also create a folder inside the [img/](/img/) folder.
+- In some cases, you may also add some `.css` code in [_includes/css/agency.css](_includes/css/agency.css).
 
 ## Final comments
 All the files and folders that have not previously been mentioned here should probably be maintained static. If there are any doubts or comments... please file an [issue](https://github.com/corolab/corolab.github.io/issues)!
