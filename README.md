@@ -44,7 +44,7 @@ The [_includes](/_includes) folder contains plain `.html` files which should be 
 - [robots.html](/_includes/about.html): Edit this file manually to update the general research group "robots" section.
 
 ### img/
-The [img/](/img/) folder is the place to upload images. You'll probably be using its [img/portfolio/](/img/portfolio/) folder most, to upload profile images linked from [_members/](_members/) and [_includes/members.html](/_includes/members.html). **Note**: Images must currently be 720x720.
+The [img/](/img/) folder is the place to upload images. You'll probably be using its [img/members/](/img/members/) folder most, to upload profile images linked from [_members/](_members/) and [_includes/members.html](/_includes/members.html). **Note**: Images must currently be 720x720.
 
 ## How to add a new section
 Here is how to add a new (static) section, as was done [here](https://github.com/corolab/corolab.github.io/commit/c5ceb77) or [here](https://github.com/corolab/corolab.github.io/commit/efd6f68):
