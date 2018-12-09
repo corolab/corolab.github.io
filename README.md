@@ -17,8 +17,6 @@ If you have any doubts or comments, please:
 * [File and folder description](#file-and-folder-description)
    - [README.md](#readmemd)
    - [\_config.yml](#_configyml)
-   - [\_members/](#_members)
-   - [\_includes/](#_includes)
    - [img/](#img)
 
 ## How to serve on localhost
