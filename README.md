@@ -35,6 +35,12 @@ This project is managed as any project on [GitHub](https://www.github.com). You 
 
 2. It is safe to `git push` to any upstream branch, just remember that what is on `master` is what will be actually rendered as the website.
 
+## How to add/modify website metadata and social media links
+
+1. The first line of this `README.md` file, which is the file you are reading, becomes the `.html` `<head>` `<title>` (what is seen on the browser's tab description).
+
+2. The [\_config.yml](/_config.yml) contains metadata that is important for SEO, basic project settings, as well as links to social media. You can add new links on it for free, and they will be rendered nicely.
+
 ## How to modify the About section
 This section is in fact in plain `.html`, the [\_includes/about.html](/_includes/about.html) file, which you can edit manually. If images are ever added, please create an `img/about/` folder.
 
@@ -58,14 +64,3 @@ Here is how to add a new (static) section, as was done for [about](https://githu
 - Add a bullet point with a link to it from within [_includes/header.html](_includes/header.html).
 - In some cases, you may also create a folder inside the [img/](/img/) folder.
 - In some cases, you may also add some `.css` code in [_includes/css/agency.css](_includes/css/agency.css).
-
-## File description
-
-### README.md
-The first line of this file, which is the file you are reading, becomes the `.html` `<head>` `<title>` (what is seen on the browser's tab description).
-
-### _config.yml
-The [\_config.yml](/_config.yml) file is also very important. It contains:
-- Metadata that is important for SEO
-- Some basic color settings
-- Links to your social media, where you can add new links for free and will be rendered nicely

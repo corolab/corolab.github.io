@@ -2,7 +2,7 @@
 #
 # This file is very important. It contains:
 # - Metadata that is important for SEO
-# - Links to your social media, where you can add new links for free and will be rendered nicely
+# - Links to social media, where you can add new links for free, and they will be rendered nicely
 # - Some basic color settings
 # - The main project settings
 
@@ -16,7 +16,7 @@ address:
   - line: University of Manchester, Oxford Rd
   - line: Manchester M13 9PL
 
-## Social network usernames (many available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+## Social media usernames (many available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: https://twitter.com/corolab_uom
