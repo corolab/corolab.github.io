@@ -2,6 +2,21 @@
 
 Currently hosted at https://corolab.github.io
 
+* [How to ask questions](#how-to-ask-questions)
+* [How to serve on localhost](#how-to-serve-on-localhost)
+* [How to upload changes to GitHub](#how-to-upload-changes-to-github)
+* [How to modify the About section](#how-to-modify-the-about-section)
+* [How to add/modify a Member](#how-to-addmodify-a-member)
+* [How to add/modify a Robot](#how-to-addmodify-a-robot)
+* [How to add/modify a Project](#how-to-addmodify-a-project)
+* [How to add a new section](#how-to-add-a-new-section)
+* [File and folder description](#file-and-folder-description)
+   - [README.md](#readmemd)
+   - [\_config.yml](#_configyml)
+   - [\_members/](#_members)
+   - [\_includes/](#_includes)
+   - [img/](#img)
+
 ## How to ask questions
 If you have any doubts or comments, please:
 1. Check if you can find the answer through this `README.md` file and the [issue](https://github.com/corolab/corolab.github.io/issues) section.
