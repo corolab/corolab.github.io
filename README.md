@@ -49,13 +49,13 @@ This section is slightly more complex. To keep everything tidy, please place all
 
 1. Some Javascript magic parses `PhD Students` from the [\_members/](_members) folder. Insert or modify `.markdown` files as described in the [members/README.md](/_members/README.md) file.
 
-2. The rest of members may be edited manually in plain `.html`, the [projects.html](/_includes/projects.html).
+2. The rest of members may be edited manually in plain `.html`, the [\_includes/members.html](/_includes/members.html) file.
 
 ## How to add/modify a Robot
-This section is in fact in plain `.html`, the [\_includes/robots.html](/_includes/robots.html), which you can edit manually. To keep everything tidy, please place all used images in the [img/robots/](/img/robots/) folder (**note**: images must currently be 720x720).
+This section is in fact in plain `.html`, the [\_includes/robots.html](/_includes/robots.html) file, which you can edit manually. To keep everything tidy, please place all used images in the [img/robots/](/img/robots/) folder (**note**: images must currently be 720x720).
 
 ## How to add/modify a Project
-This section is in fact in plain `.html`, the [\_includes/projects.html](/_includes/projects.html), which you can edit manually. To keep everything tidy, please place all used images in the [img/projects/](/img/projects/) folder (**note**: images must currently be 720x720).
+This section is in fact in plain `.html`, the [\_includes/projects.html](/_includes/projects.html) file, which you can edit manually. To keep everything tidy, please place all used images in the [img/projects/](/img/projects/) folder (**note**: images must currently be 720x720).
 
 ## How to add a new section
 Here is how to add a new (static) section, as was done for [about](https://github.com/corolab/corolab.github.io/commit/c5ceb77), [robots](https://github.com/corolab/corolab.github.io/commit/efd6f68), or [projects](https://github.com/corolab/corolab.github.io/commit/30077f7):
