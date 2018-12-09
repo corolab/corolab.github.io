@@ -28,7 +28,7 @@ address:
 markdown: kramdown
 permalink: pretty
 
-# Collections
+# kramdown collections
 collections:
     members:
         title: Members
