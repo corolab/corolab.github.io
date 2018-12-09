@@ -5,7 +5,7 @@ Currently hosted at https://corolab.github.io
 ## How to serve on localhost
 It is useful to serve on `localhost` to modify the website and see changes locally. Additionally, it is safe to `git push` to any upstream branch, just remember that what is on `master` is what will be actually rendered as the website.
 
-1. From the root of the project, run the following command that serves [jekyll](https://jekyllrb.com/)-based projects:
+1. From the root of the project, run the following command (which is universal for all [jekyll](https://jekyllrb.com/)-based projects):
 ```bash
 bundle exec jekyll serve
 ```
