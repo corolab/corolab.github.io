@@ -24,6 +24,14 @@ This project is managed as any project on [GitHub](https://www.github.com). You 
 
 2. It is safe to `git push` to any upstream branch, just remember that what is on `master` is what will be actually rendered as the website.
 
+## How to add a new section
+Here is how to add a new (static) section, as was done for [about](https://github.com/corolab/corolab.github.io/commit/c5ceb77), [robots](https://github.com/corolab/corolab.github.io/commit/efd6f68), or [projects](https://github.com/corolab/corolab.github.io/commit/30077f7):
+- Add some template plain html code at [_includes](/_includes).
+- Include it from within [_layouts/default.html](_layouts/default.html).
+- Add a bullet point with a link to it from within [_includes/header.html](_includes/header.html).
+- In some cases, you may also create a folder inside the [img/](/img/) folder.
+- In some cases, you may also add some `.css` code in [_includes/css/agency.css](_includes/css/agency.css).
+
 ## File and folder description
 
 ### README.md
@@ -60,12 +68,3 @@ The [img/](/img/) folder is the place to upload images. **Note**: Images must cu
 - [img/members/](/img/members/): You'll probably be using this folder most, to upload profile images linked from [_members/](_members/) and [_includes/members.html](/_includes/members.html).
 - [img/robots/](/img/robots/): Images linked from [_includes/robots.html](/_includes/robots.html).
 - [img/projects/](/img/projects/): Images linked from [_includes/projects.html](/_includes/projects.html).
-
-## How to add a new section
-Here is how to add a new (static) section, as was done for [about](https://github.com/corolab/corolab.github.io/commit/c5ceb77), [robots](https://github.com/corolab/corolab.github.io/commit/efd6f68), or [projects](https://github.com/corolab/corolab.github.io/commit/30077f7):
-- Add some template plain html code at [_includes](/_includes).
-- Include it from within [_layouts/default.html](_layouts/default.html).
-- Add a bullet point with a link to it from within [_includes/header.html](_includes/header.html).
-- In some cases, you may also create a folder inside the [img/](/img/) folder.
-- In some cases, you may also add some `.css` code in [_includes/css/agency.css](_includes/css/agency.css).
-
