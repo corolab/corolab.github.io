@@ -73,14 +73,6 @@ The [\_config.yml](/_config.yml) file is also very important. It contains:
 - Some basic color settings
 - Links to your social media, where you can add new links for free and will be rendered nicely
 
-### _includes/
-The [\_includes](/_includes) folder mainly contains plain `.html` files which should be rather static, but can be modified freely.
-- [about.html](/_includes/about.html): Edit this file manually to update the general research group "about" section.
-- [members.html](/_includes/members.html): For `PhD Students`, use the mechanism stated for `_members/`, [above](#_members). For other cases, edit this file manually to update the general research group "about" section.
-- [robots.html](/_includes/robots.html): Edit this file manually to update the general research group "robots" section.
-- [projects.html](/_includes/projects.html): Edit this file manually to update the general research group "projects" section.
-- [\_includes/css/agency.css](_includes/css/agency.css): A `.css` file to which fields are sometimes added for new sections.
-
 ### img/
 The [img/](/img/) folder is the place to upload images. **Note**: Images must currently be 720x720.
 - [img/members/](/img/members/): You'll probably be using this folder most, to upload profile images linked from [_members/](_members/) and [_includes/members.html](/_includes/members.html).
