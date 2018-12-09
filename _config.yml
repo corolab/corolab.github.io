@@ -1,15 +1,22 @@
-# Site settings
+# _config.yml
+#
+# This file is very important. It contains:
+# - Metadata that is important for SEO
+# - Links to your social media, where you can add new links for free and will be rendered nicely
+# - Some basic color settings
+# - The main project settings
+
+## Site metadata
 title: CoRoLab UoM
 email: corolabuom@gmail.com
 description: "Cognitive Robotics Lab at University of Manchester"
+## Postal address (add as many lines as necessary)
+address:
+  - line: Kilburn Building
+  - line: University of Manchester, Oxford Rd
+  - line: Manchester M13 9PL
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 6b3090
-  secondary: 783a9c
-  secondary-dark: 000
-
-# Social networks usernames (many available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+## Social network usernames (many available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: https://twitter.com/corolab_uom
@@ -18,17 +25,17 @@ social:
   - title: envelope
     url: mailto:corolabuom@gmail.com
 
-# Postal address (add as many lines as necessary)
-address:
-  - line: Kilburn Building
-  - line: University of Manchester, Oxford Rd
-  - line: Manchester M13 9PL
+## Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 6b3090
+  secondary: 783a9c
+  secondary-dark: 000
 
-# Build settings
+## Build settings
 markdown: kramdown
 permalink: pretty
 
-# kramdown collections
+## Collections
 collections:
     members:
         title: Members
