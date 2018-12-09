@@ -3,8 +3,8 @@
 Currently hosted at https://corolab.github.io
 
 If you have any doubts or comments, please:
-1. Check if you can find the answer through this `README.md` file and the [issue](https://github.com/corolab/corolab.github.io/issues) section.
-2. If your doubt or comment is not a duplicate, please post a detailed [new issue](https://github.com/corolab/corolab.github.io/issues/new).
+1. Check if you can find the answer through the individual file documentation, as well as the [Issues](https://github.com/corolab/corolab.github.io/issues) section.
+2. If your doubt or comment is not a duplicate, please post a detailed [New issue](https://github.com/corolab/corolab.github.io/issues/new).
 
 ### Contents
 * [How to serve on localhost](#how-to-serve-on-localhost)
@@ -44,7 +44,7 @@ This section is in fact in plain `.html`, the [\_includes/about.html](/_includes
 ## How to add/modify a Member
 This section is slightly more complex. To keep everything tidy, please place all used images in the [img/members/](/img/members/) folder (**note**: images must currently be 720x720).
 
-1. Some Javascript magic parses `PhD Students` from the [\_members/](_members) folder. Insert or modify `.markdown` files as described in the [members/ section](#_members) of this page.
+1. Some Javascript magic parses `PhD Students` from the [\_members/](_members) folder. Insert or modify `.markdown` files as described in the [members/README.md](/_members/README.md) file.
 
 2. The rest of members may be edited manually in plain `.html`, the [projects.html](/_includes/projects.html).
 
@@ -62,7 +62,7 @@ Here is how to add a new (static) section, as was done for [about](https://githu
 - In some cases, you may also create a folder inside the [img/](/img/) folder.
 - In some cases, you may also add some `.css` code in [_includes/css/agency.css](_includes/css/agency.css).
 
-## File and folder description
+## File description
 
 ### README.md
 The first line of this file, which is the file you are reading, becomes the `.html` `<head>` `<title>` (what is seen on the browser's tab description).
@@ -72,22 +72,6 @@ The [\_config.yml](/_config.yml) file is also very important. It contains:
 - Metadata that is important for SEO
 - Some basic color settings
 - Links to your social media, where you can add new links for free and will be rendered nicely
-
-### _members/
-The [\_members/](_members) folder contains one file per member, with the following format:
-```
----
-type: member
-name: Jane Doe
-picture: JaneDoe.jpg
-website: https://www.google.com
----
-```
-Where:
-- `type`: Please leave its value `member` fixed.
-- `name`: Name of person.
-- `picture` [optional]: The file name with extension. Please omit the `img/members/` prefix.
-- `website` [optional]: A website URL.
 
 ### _includes/
 The [\_includes](/_includes) folder mainly contains plain `.html` files which should be rather static, but can be modified freely.
