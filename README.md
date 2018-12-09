@@ -24,6 +24,22 @@ This project is managed as any project on [GitHub](https://www.github.com). You 
 
 2. It is safe to `git push` to any upstream branch, just remember that what is on `master` is what will be actually rendered as the website.
 
+## How to modify the About section
+This section is in fact in plain `.html`, the [about.html](/_includes/about.html) file, which you can edit manually. If images are ever added, please create an `img/about/` folder.
+
+## How to add/modify a Member
+This section is slightly more complex. To keep everything tidy, please place all used images in the [img/members/](/img/members/) folder (**note**: images must currently be 720x720).
+
+1. Some Javascript magic parses `PhD Students` from the `_members/` folder. Insert or modify `.markdown` files as described in the [members/](#_members) section of this page.
+
+2. The rest of members may be edited manually in plain `.html`, the [projects.html](/_includes/projects.html).
+
+## How to add/modify a Robot
+This section is in fact in plain `.html`, the [robots.html](/_includes/robots.html), which you can edit manually. To keep everything tidy, please place all used images in the [img/robots/](/img/robots/) folder (**note**: images must currently be 720x720).
+
+## How to add/modify a Project
+This section is in fact in plain `.html`, the [projects.html](/_includes/projects.html), which you can edit manually. To keep everything tidy, please place all used images in the [img/projects/](/img/projects/) folder.
+
 ## How to add a new section
 Here is how to add a new (static) section, as was done for [about](https://github.com/corolab/corolab.github.io/commit/c5ceb77), [robots](https://github.com/corolab/corolab.github.io/commit/efd6f68), or [projects](https://github.com/corolab/corolab.github.io/commit/30077f7):
 - Add some template plain html code at [_includes](/_includes).
@@ -53,7 +69,11 @@ picture: JaneDoe.jpg
 website: https://www.google.com
 ---
 ```
-Where `picture` (only file name, see `img/` below) and `website` lines are optional. They are automatically added as `PhD Students`. See below if this does not apply.
+Where:
+- `type`: Please leave its value `member` fixed.
+- `name`: Name of person.
+- `picture` [optional]: The file name with extension. Please omit the `img/members/` prefix.
+- `website` [optional]: A website URL.
 
 ### _includes/
 The [_includes](/_includes) folder mainly contains plain `.html` files which should be rather static, but can be modified freely.
