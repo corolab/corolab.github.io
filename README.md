@@ -9,14 +9,12 @@ If you have any doubts or comments, please:
 ### Contents
 * [How to serve on localhost](#how-to-serve-on-localhost)
 * [How to upload changes to GitHub](#how-to-upload-changes-to-github)
+* [How to add/modify website metadata and social media links](#how-to-addmodify-website-metadata-and-social-media-links)
 * [How to modify the About section](#how-to-modify-the-about-section)
 * [How to add/modify a Member](#how-to-addmodify-a-member)
 * [How to add/modify a Robot](#how-to-addmodify-a-robot)
 * [How to add/modify a Project](#how-to-addmodify-a-project)
 * [How to add a new section](#how-to-add-a-new-section)
-* [File and folder description](#file-and-folder-description)
-   - [README.md](#readmemd)
-   - [\_config.yml](#_configyml)
 
 ## How to serve on localhost
 It is useful to serve on `localhost` to modify the website and see changes locally.
