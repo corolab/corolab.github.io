@@ -3,7 +3,7 @@
 Currently hosted at https://corolab.github.io
 
 ### If you have any doubts or comments
-1. Please check if you can find the answer through the in-source documentation the corresponding file and/or folder, as well as in the [Issues](https://github.com/corolab/corolab.github.io/issues) section.
+1. Please check if you can find the answer through the corresponding file and/or folder in-source documentation, as well as in the [Issues](https://github.com/corolab/corolab.github.io/issues) section (both open and closed issues).
 2. If your doubt or comment is not a duplicate, please post a detailed [New issue](https://github.com/corolab/corolab.github.io/issues/new).
 
 ### Contents
