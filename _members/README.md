@@ -1,4 +1,4 @@
-# \_members/
+# /\_members/
 
 This folder contains one file per member, with the following format:
 ```
