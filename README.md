@@ -6,7 +6,7 @@ If you have any doubts or comments, please:
 1. Check if you can find the answer through this `README.md` file and the [issue](https://github.com/corolab/corolab.github.io/issues) section.
 2. If your doubt or comment is not a duplicate, please post a detailed [new issue](https://github.com/corolab/corolab.github.io/issues/new).
 
-Contents:
+### Contents
 * [How to serve on localhost](#how-to-serve-on-localhost)
 * [How to upload changes to GitHub](#how-to-upload-changes-to-github)
 * [How to modify the About section](#how-to-modify-the-about-section)
