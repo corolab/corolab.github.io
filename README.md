@@ -2,24 +2,19 @@
 
 Currently hosted at https://corolab.github.io
 
-If you have any doubts or comments, please:
-1. Check if you can find the answer through this `README.md` file and the [issue](https://github.com/corolab/corolab.github.io/issues) section.
-2. If your doubt or comment is not a duplicate, please post a detailed [new issue](https://github.com/corolab/corolab.github.io/issues/new).
+### If you have any doubts or comments
+1. Please check if you can find the answer through the corresponding file and/or folder in-source documentation, as well as in the [Issues](https://github.com/corolab/corolab.github.io/issues) section (both Open and Closed issues).
+2. If your doubt or comment is not a duplicate, please post a detailed [New issue](https://github.com/corolab/corolab.github.io/issues/new).
 
-### Contents
+### How-To's
 * [How to serve on localhost](#how-to-serve-on-localhost)
 * [How to upload changes to GitHub](#how-to-upload-changes-to-github)
+* [How to add/modify website metadata and social media links](#how-to-addmodify-website-metadata-and-social-media-links)
 * [How to modify the About section](#how-to-modify-the-about-section)
 * [How to add/modify a Member](#how-to-addmodify-a-member)
 * [How to add/modify a Robot](#how-to-addmodify-a-robot)
 * [How to add/modify a Project](#how-to-addmodify-a-project)
 * [How to add a new section](#how-to-add-a-new-section)
-* [File and folder description](#file-and-folder-description)
-   - [README.md](#readmemd)
-   - [\_config.yml](#_configyml)
-   - [\_members/](#_members)
-   - [\_includes/](#_includes)
-   - [img/](#img)
 
 ## How to serve on localhost
 It is useful to serve on `localhost` to modify the website and see changes locally.
@@ -38,67 +33,35 @@ This project is managed as any project on [GitHub](https://www.github.com). You 
 
 2. It is safe to `git push` to any upstream branch, just remember that what is on `master` is what will be actually rendered as the website.
 
+## How to add/modify website metadata and social media links
+
+1. The first line of this `README.md` file, which is the file you are reading, becomes the `.html` `<head>` `<title>` (what is seen on the browser's tab description).
+
+2. The [/\_config.yml](/_config.yml) contains metadata that is important for SEO, basic project settings, as well as links to social media. You can add new links on it for free, and they will be rendered nicely.
+
+3. More colors and also behaviours have also set up in [/\_includes/css/agency.css](/_includes/css/agency.css).
+
 ## How to modify the About section
-This section is in fact in plain `.html`, the [\_includes/about.html](/_includes/about.html) file, which you can edit manually. If images are ever added, please create an `img/about/` folder.
+This section is in fact in plain `.html`, the [/\_includes/about.html](/_includes/about.html) file, which you can edit manually. If images are ever added, please create an `img/about/` folder.
 
 ## How to add/modify a Member
-This section is slightly more complex. To keep everything tidy, please place all used images in the [img/members/](/img/members/) folder (**note**: images must currently be 720x720).
+This section is slightly more complex. To keep everything tidy, please place all used images in the [/img/members/](/img/members/) folder (**note**: images must currently be 720x720).
 
-1. Some Javascript magic parses `PhD Students` from the [\_members/](_members) folder. Insert or modify `.markdown` files as described in the [members/ section](#_members) of this page.
+1. We auto-magically parse `PhD Students` from the [/\_members/](/_members) folder. Insert or modify `.markdown` files as described in the [/\_members/README.md](/_members/README.md) file. Advanced: the parsing is achieved via the [jekyll collections](https://jekyllrb.com/docs/collections/) mechanism, implemented [here](https://github.com/corolab/corolab.github.io/blob/0a890309da44616f980fbd5f600e505c09014d54/_config.yml#L31-L35) and [here](https://github.com/corolab/corolab.github.io/blob/0a890309da44616f980fbd5f600e505c09014d54/_includes/members.html#L73-L89).
 
-2. The rest of members may be edited manually in plain `.html`, the [projects.html](/_includes/projects.html).
+2. The rest of members may be edited manually in plain `.html`, the [/\_includes/members.html](/_includes/members.html) file.
 
 ## How to add/modify a Robot
-This section is in fact in plain `.html`, the [\_includes/robots.html](/_includes/robots.html), which you can edit manually. To keep everything tidy, please place all used images in the [img/robots/](/img/robots/) folder (**note**: images must currently be 720x720).
+This section is in fact in plain `.html`, the [/\_includes/robots.html](/_includes/robots.html) file, which you can edit manually. To keep everything tidy, please place all used images in the [/img/robots/](/img/robots/) folder (**note**: images must currently be 720x720).
 
 ## How to add/modify a Project
-This section is in fact in plain `.html`, the [\_includes/projects.html](/_includes/projects.html), which you can edit manually. To keep everything tidy, please place all used images in the [img/projects/](/img/projects/) folder.
+This section is in fact in plain `.html`, the [/\_includes/projects.html](/_includes/projects.html) file, which you can edit manually. To keep everything tidy, please place all used images in the [/img/projects/](/img/projects/) folder (**note**: images must currently be 720x720).
 
 ## How to add a new section
 Here is how to add a new (static) section, as was done for [about](https://github.com/corolab/corolab.github.io/commit/c5ceb77), [robots](https://github.com/corolab/corolab.github.io/commit/efd6f68), or [projects](https://github.com/corolab/corolab.github.io/commit/30077f7):
-- Add some template plain `.html` code at [_includes](/_includes).
-- Include it from within [_layouts/default.html](_layouts/default.html).
-- Add a bullet point with a link to it from within [_includes/header.html](_includes/header.html).
-- In some cases, you may also create a folder inside the [img/](/img/) folder.
-- In some cases, you may also add some `.css` code in [_includes/css/agency.css](_includes/css/agency.css).
-
-## File and folder description
-
-### README.md
-The first line of this file, which is the file you are reading, becomes the `.html` `<head>` `<title>` (what is seen on the browser's tab description).
-
-### _config.yml
-The [\_config.yml](/_config.yml) file is also very important. It contains:
-- Metadata that is important for SEO
-- Some basic color settings
-- Links to your social media, where you can add new links for free and will be rendered nicely
-
-### _members/
-The [\_members/](_members) folder contains one file per member, with the following format:
-```
----
-type: member
-name: Jane Doe
-picture: JaneDoe.jpg
-website: https://www.google.com
----
-```
-Where:
-- `type`: Please leave its value `member` fixed.
-- `name`: Name of person.
-- `picture` [optional]: The file name with extension. Please omit the `img/members/` prefix.
-- `website` [optional]: A website URL.
-
-### _includes/
-The [\_includes](/_includes) folder mainly contains plain `.html` files which should be rather static, but can be modified freely.
-- [about.html](/_includes/about.html): Edit this file manually to update the general research group "about" section.
-- [members.html](/_includes/members.html): For `PhD Students`, use the mechanism stated for `_members/`, [above](#_members). For other cases, edit this file manually to update the general research group "about" section.
-- [robots.html](/_includes/robots.html): Edit this file manually to update the general research group "robots" section.
-- [projects.html](/_includes/projects.html): Edit this file manually to update the general research group "projects" section.
-- [\_includes/css/agency.css](_includes/css/agency.css): A `.css` file to which fields are sometimes added for new sections.
-
-### img/
-The [img/](/img/) folder is the place to upload images. **Note**: Images must currently be 720x720.
-- [img/members/](/img/members/): You'll probably be using this folder most, to upload profile images linked from [_members/](_members/) and [_includes/members.html](/_includes/members.html).
-- [img/robots/](/img/robots/): Images linked from [_includes/robots.html](/_includes/robots.html).
-- [img/projects/](/img/projects/): Images linked from [_includes/projects.html](/_includes/projects.html).
+- Add some template plain `.html` code at [/\_includes](/_includes).
+- Include it from within [_layouts/default.html](/\_layouts/default.html).
+- Add a bullet point with a link to it from within [/\_includes/header.html](/_includes/header.html).
+- In some cases, you may also create a folder inside the [/img/](/img/) folder.
+- In some cases, you may also add some `.css` code in [/\_includes/css/agency.css](/_includes/css/agency.css).
+- Add a new section in this page in how to modify it and its contents.
