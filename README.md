@@ -2,7 +2,11 @@
 
 Currently hosted at https://corolab.github.io
 
-* [How to ask questions](#how-to-ask-questions)
+If you have any doubts or comments, please:
+1. Check if you can find the answer through this `README.md` file and the [issue](https://github.com/corolab/corolab.github.io/issues) section.
+2. If your doubt or comment is not a duplicate, please post a detailed [new issue](https://github.com/corolab/corolab.github.io/issues/new).
+
+Contents:
 * [How to serve on localhost](#how-to-serve-on-localhost)
 * [How to upload changes to GitHub](#how-to-upload-changes-to-github)
 * [How to modify the About section](#how-to-modify-the-about-section)
@@ -16,11 +20,6 @@ Currently hosted at https://corolab.github.io
    - [\_members/](#_members)
    - [\_includes/](#_includes)
    - [img/](#img)
-
-## How to ask questions
-If you have any doubts or comments, please:
-1. Check if you can find the answer through this `README.md` file and the [issue](https://github.com/corolab/corolab.github.io/issues) section.
-2. If your doubt or comment is not a duplicate, please post a detailed [new issue](https://github.com/corolab/corolab.github.io/issues/new).
 
 ## How to serve on localhost
 It is useful to serve on `localhost` to modify the website and see changes locally.
