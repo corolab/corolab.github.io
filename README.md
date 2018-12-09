@@ -17,7 +17,6 @@ If you have any doubts or comments, please:
 * [File and folder description](#file-and-folder-description)
    - [README.md](#readmemd)
    - [\_config.yml](#_configyml)
-   - [img/](#img)
 
 ## How to serve on localhost
 It is useful to serve on `localhost` to modify the website and see changes locally.
