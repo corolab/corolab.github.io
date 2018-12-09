@@ -2,6 +2,11 @@
 
 Currently hosted at https://corolab.github.io
 
+## How to ask questions
+If you have any doubts or comments, please:
+1. Check if you can find the answer through the `README.md` files and the [issue](https://github.com/corolab/corolab.github.io/issues) section.
+2. If your doubt or comment is not a duplicate, please post a detailed [new issue](https://github.com/corolab/corolab.github.io/issues/new).
+
 ## How to serve on localhost
 It is useful to serve on `localhost` to modify the website and see changes locally.
 
@@ -64,5 +69,3 @@ Here is how to add a new (static) section, as was done for [about](https://githu
 - In some cases, you may also create a folder inside the [img/](/img/) folder.
 - In some cases, you may also add some `.css` code in [_includes/css/agency.css](_includes/css/agency.css).
 
-## Final comments
-All the files and folders that have not previously been mentioned here should probably be maintained static. If there are any doubts or comments... please file an [issue](https://github.com/corolab/corolab.github.io/issues)!
