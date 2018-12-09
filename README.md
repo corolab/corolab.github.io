@@ -4,7 +4,7 @@ Currently hosted at https://corolab.github.io
 
 ## How to ask questions
 If you have any doubts or comments, please:
-1. Check if you can find the answer through the `README.md` files and the [issue](https://github.com/corolab/corolab.github.io/issues) section.
+1. Check if you can find the answer through this `README.md` file and the [issue](https://github.com/corolab/corolab.github.io/issues) section.
 2. If your doubt or comment is not a duplicate, please post a detailed [new issue](https://github.com/corolab/corolab.github.io/issues/new).
 
 ## How to serve on localhost
