@@ -39,7 +39,7 @@ This project is managed as any project on [GitHub](https://www.github.com). You 
 
 2. The [\_config.yml](/_config.yml) contains metadata that is important for SEO, basic project settings, as well as links to social media. You can add new links on it for free, and they will be rendered nicely.
 
-3. More colors and also behaviours have also set up in [css/agency.css](/css/agency.css).
+3. More colors and also behaviours have also set up in [\_includes/css/agency.css](/_includes/css/agency.css).
 
 ## How to modify the About section
 This section is in fact in plain `.html`, the [\_includes/about.html](/_includes/about.html) file, which you can edit manually. If images are ever added, please create an `img/about/` folder.
