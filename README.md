@@ -64,3 +64,4 @@ Here is how to add a new (static) section, as was done for [about](https://githu
 - Add a bullet point with a link to it from within [/\_includes/header.html](/_includes/header.html).
 - In some cases, you may also create a folder inside the [/img/](/img/) folder.
 - In some cases, you may also add some `.css` code in [/\_includes/css/agency.css](/_includes/css/agency.css).
+- Add a new section in this page in how to modify it and its contents.
