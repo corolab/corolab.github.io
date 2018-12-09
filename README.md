@@ -47,7 +47,7 @@ This section is in fact in plain `.html`, the [\_includes/about.html](/_includes
 ## How to add/modify a Member
 This section is slightly more complex. To keep everything tidy, please place all used images in the [img/members/](/img/members/) folder (**note**: images must currently be 720x720).
 
-1. We automagically parse `PhD Students` from the [\_members/](_members) folder via the [jekyll include](https://jekyllrb.com/docs/includes/) mechanism. Insert or modify `.markdown` files as described in the [members/README.md](/_members/README.md) file.
+1. We automagically parse `PhD Students` from the [\_members/](_members) folder via the [jekyll collections](https://jekyllrb.com/docs/collections/) mechanism. Insert or modify `.markdown` files as described in the [members/README.md](/_members/README.md) file.
 
 2. The rest of members may be edited manually in plain `.html`, the [\_includes/members.html](/_includes/members.html) file.
 
