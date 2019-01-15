@@ -52,7 +52,7 @@
                     </a>
                     <div class="members-caption">
                         <h4>Gi Hyun Lim</h4>
-                        <!--p class="text-muted">Professor of Machine Learning & Robotics</p-->
+                        <p class="text-muted">H2020 <a href="#projects">STRoNA</a> Fellowship</a></p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4 members-item"></div>                
@@ -84,7 +84,7 @@
                     </a>
                     <div class="members-caption">
                         <h4>{{member.name}}</h4>
-                        {% if member.free-text %}<p class="text-muted">{{member.free-text}}</p>{% endif %}
+                        {% if member.free-text %}<p class="text-muted">{{member.free-text}}</p>{% else %}<p><br><br></p>{% endif %}
                     </div>
                 </div>
             {% endfor %}
