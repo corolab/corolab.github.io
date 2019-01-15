@@ -84,7 +84,7 @@
                     </a>
                     <div class="members-caption">
                         <h4>{{member.name}}</h4>
-                        <!--p class="text-muted">Multimedia Creation</p-->
+                        {% if member.free-text %}<p class="text-muted">{{member.free-text}}</p>{% endif %}
                     </div>
                 </div>
             {% endfor %}
