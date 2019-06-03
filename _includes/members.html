@@ -1,5 +1,6 @@
-<!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-png">
+<!-- Members Section -->
+<!-- Please read /README.md#how-to-addmodify-a-member -->
+    <section id="members" class="bg-png">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -14,22 +15,22 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-4 portfolio-item"></div>
-                <div class="col-md-4 col-sm-4 portfolio-item">
-                    <a href="https://www.research.manchester.ac.uk/portal/angelo.cangelosi.html" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
+                <div class="col-md-4 col-sm-4 members-item"></div>
+                <div class="col-md-4 col-sm-4 members-item">
+                    <a href="https://www.research.manchester.ac.uk/portal/angelo.cangelosi.html" class="members-link" data-toggle="modal">
+                        <div class="members-hover">
+                            <div class="members-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <center><img src="img/portfolio/cangelosi_2012.jpg" class="img-responsive" alt=""></center>
+                        <center><img src="img/members/cangelosi_2012.jpg" class="img-responsive" alt=""></center>
                     </a>
-                    <div class="portfolio-caption">
+                    <div class="members-caption">
                         <h4>Angelo Cangelosi</h4>
                         <p class="text-muted">Professor of Machine Learning & Robotics</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-4 portfolio-item"></div>                
+                <div class="col-md-4 col-sm-4 members-item"></div>
              </div>
 
 
@@ -39,22 +40,48 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-4 portfolio-item"></div>
-                <div class="col-md-4 col-sm-4 portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
+                <div class="col-md-4 col-sm-4 members-item">
+                  <a class="members-link" data-toggle="modal">
+                      <div class="members-hover">
+                          <div class="members-hover-content">
+                              <i class="fa fa-plus fa-3x"></i>
+                          </div>
+                      </div>
+                      <img src="img/members/profile.png" class="img-responsive" alt="">
+                  </a>
+                  <div class="members-caption">
+                      <h4>Wenxuan Mou</h4>
+                      <p class="text-muted"> US <a href="#projects">THRIVE++</a> project</a></p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-4 members-item">
+                    <a class="members-link" data-toggle="modal">
+                        <div class="members-hover">
+                            <div class="members-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/profile.png" class="img-responsive" alt="">
+                        <img src="img/members/GiLimPhoto.jpg" class="img-responsive" alt="">
                     </a>
-                    <div class="portfolio-caption">
+                    <div class="members-caption">
                         <h4>Gi Hyun Lim</h4>
-                        <!--p class="text-muted">Professor of Machine Learning & Robotics</p-->
+                        <p class="text-muted">H2020 <a href="#projects">STRoNA</a> Fellowship</a></p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-4 portfolio-item"></div>                
+                <div class="col-md-4 col-sm-4 members-item">
+                  <a href="https://dhgarcia.github.io" class="members-link" data-toggle="modal">
+                      <div class="members-hover">
+                          <div class="members-hover-content">
+                              <i class="fa fa-plus fa-3x"></i>
+                          </div>
+                      </div>
+                      <img src="img/members/DanielHernandezGarciaPhoto.png" class="img-responsive" alt="">
+                  </a>
+                  <div class="members-caption">
+                      <h4>Daniel Hernández García</h4>
+                      <p class="text-muted">H2020 <a href="#projects">MoveCare</a> Project</a></p>
+                  </div>
+                </div>
              </div>
 
 
@@ -72,18 +99,18 @@
 
             {% for member in include.collection %}
             {% assign var = forloop.index0 | modulo:2 %}
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a {% if member.website %}href={{member.website}}{% endif %} class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
+                <div class="col-md-4 col-sm-6 members-item">
+                    <a {% if member.website %}href={{member.website}}{% endif %} class="members-link" data-toggle="modal">
+                        <div class="members-hover">
+                            <div class="members-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/{% if member.picture %}{{member.picture}}{% else %}profile.png{% endif %}" class="img-responsive" alt="">
+                        <img src="img/members/{% if member.picture %}{{member.picture}}{% else %}profile.png{% endif %}" class="img-responsive" alt="">
                     </a>
-                    <div class="portfolio-caption">
+                    <div class="members-caption">
                         <h4>{{member.name}}</h4>
-                        <!--p class="text-muted">Multimedia Creation</p-->
+                        {% if member.free-text %}<p class="text-muted">{{member.free-text}}</p>{% else %}<p><br><br></p>{% endif %}
                     </div>
                 </div>
             {% endfor %}
@@ -101,38 +128,38 @@
 
              <div class="row">
 
-                <div class="col-md-3 col-sm-3 portfolio-item"></div>
-                <div class="col-md-3 col-sm-3 portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
+                <div class="col-md-3 col-sm-3 members-item"></div>
+                <div class="col-md-3 col-sm-3 members-item">
+                    <a class="members-link" data-toggle="modal">
+                        <div class="members-hover">
+                            <div class="members-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/profile.png" class="img-responsive" alt="">
+                        <img src="img/members/profile.png" class="img-responsive" alt="">
                     </a>
-                    <div class="portfolio-caption">
+                    <div class="members-caption">
                         <h4>Debora Zanatto</h4>
                         <p class="text-muted">Plymouth University</p>
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-3 portfolio-item">
-                    <a href="https://jgvictores.github.io/" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
+                <div class="col-md-3 col-sm-3 members-item">
+                    <a href="https://jgvictores.github.io/" class="members-link" data-toggle="modal">
+                        <div class="members-hover">
+                            <div class="members-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/profile.png" class="img-responsive" alt="">
+                        <img src="img/members/profile.png" class="img-responsive" alt="">
                     </a>
-                    <div class="portfolio-caption">
+                    <div class="members-caption">
                         <h4>Juan G Victores</h4>
                         <p class="text-muted">Universidad Carlos III de Madrid</p>
                     </div>
                 </div>
-<div class="col-md-3 col-sm-3 portfolio-item"></div>
-                
+<div class="col-md-3 col-sm-3 members-item"></div>
+
             </div>
 
 
