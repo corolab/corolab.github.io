@@ -1,7 +1,7 @@
 ---
 type: member
 name: Martina Ruocco
-free-text: <a href="#projects">THRIVE</a> ETN
+free-text: US <a href="#projects">THRIVE++</a> project
 <!-- picture: MartinaRuoccoPhoto.png -->
 
 ---
