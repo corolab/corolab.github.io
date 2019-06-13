@@ -1,7 +1,7 @@
 ---
 type: member
 name: Federico Tavella
-free-text:  project
+free-text:
 <!-- picture: FedericoTavellaPhoto.png -->
 
 ---
