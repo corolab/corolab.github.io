@@ -2,6 +2,6 @@
 type: member
 name: Federico Tavella
 free-text:
-<!-- picture: FedericoTavellaPhoto.png -->
-
+picture: FedericoTavellaPhoto.jpg
+website: https://tfederico.github.io/
 ---
