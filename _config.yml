@@ -37,6 +37,16 @@ permalink: pretty
 
 ## Collections
 collections:
-    members:
-        title: Members
+    students:
+        title: Students
         output: true
+    postdocs:
+        title: Postdocs
+        output: true
+    alumni:
+        title: Alumni
+        output: true
+    visitors:
+        title: Visitors
+        output: true
+collections_dir: _members
