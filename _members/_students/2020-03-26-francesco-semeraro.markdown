@@ -2,6 +2,6 @@
 type: member
 name: Francesco Semeraro
 free-text: ESPRC-BAE Systems CASE
-picture: profile.png
-website:
+picture: FrancescoSemeraroPhoto.png
+website: https://www.research.manchester.ac.uk/portal/francesco.semeraro.html
 ---
