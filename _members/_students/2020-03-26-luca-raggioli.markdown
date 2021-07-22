@@ -1,7 +1,7 @@
 ---
 type: member
 name: Luca Raggioli
-free-text: ESR eLADDA on robots and education
-picture: profile.png
-website:
+free-text: MSCA ITN <a href="#projects">e-LADDA</a> ESR
+picture: LucaRaggioliPhoto.jpg
+website: https://www.research.manchester.ac.uk/portal/luca.raggioli.html
 ---
