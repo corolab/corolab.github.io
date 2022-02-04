@@ -1,7 +1,7 @@
 ---
 type: member
 name: Wenjie Huang
-free-text:
-picture: profile.png
+free-text:Robotic Consciousness
+picture: WenjieHuang.jpg
 website:
 ---
