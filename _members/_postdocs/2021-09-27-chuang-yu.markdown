@@ -1,0 +1,7 @@
+---
+type: member
+name: Chuang Yu
+free-text: <a href="#projects">UKRI TAS Trust Node</a>
+picture: ChuangYu.JPG
+website: https://sites.google.com/view/chuangyu-robotics
+---
