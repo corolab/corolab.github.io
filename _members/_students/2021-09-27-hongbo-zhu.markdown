@@ -1,7 +1,7 @@
 ---
 type: member
 name: Hongbo Zhu
-free-text: Explianbale Robotic
+free-text: Explainable Robotics
 picture: HongboZhu.JPG
-website:
+website: https://www.linkedin.com/in/hongbo-zhu-3397b7195/?originalSubdomain=uk
 ---
