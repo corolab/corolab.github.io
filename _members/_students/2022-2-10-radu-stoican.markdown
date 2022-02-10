@@ -1,7 +1,7 @@
 ---
 type: member
-name: Hongbo Zhu
+name: Radu Stoican
 free-text: Explianbale Robotic
-picture: HongboZhu.JPG
-website:
+picture: Radu Stoican.jpg
+website: www.linkedin.com/in/radu-stoican
 ---
