@@ -2,6 +2,6 @@
 type: member
 name: Dr. Eduardo Coutinho
 free-text: University of Liverpool
-picture: profile.png
-website:
+picture: eduardo-coutinho.png
+website: https://www.liverpool.ac.uk/music/staff/eduardo-coutinho/
 ---
