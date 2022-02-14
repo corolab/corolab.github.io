@@ -2,6 +2,6 @@
 type: member
 name: Dr. Francesco Lanza
 free-text: University of Palermo
-picture: profile.png
-website:
+picture: Francesco-Lanza.png
+website: https://www.researchgate.net/profile/Francesco-Lanza-4
 ---
