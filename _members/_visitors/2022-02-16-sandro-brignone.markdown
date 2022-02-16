@@ -1,7 +1,7 @@
 ---
 type: member
-name: Dr. Juan G. Victores
-free-text: Universidad Carlos III de Madrid
-picture: profile.png
-website:
+name: Sandro Brignone (Ph.D. Candidate)
+free-text: University of Turin (Italy)
+picture: sandro-brignone.jpeg
+website: https://www.dfe.unito.it/do/docenti.pl/Show?_id=sbrignon#tab-profilo
 ---
