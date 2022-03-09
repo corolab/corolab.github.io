@@ -1,7 +1,7 @@
 ---
 type: member
-name: Dr. Juan G. Victores
-free-text: Universidad Carlos III de Madrid
-picture: Juan-G-Victores.png
-website: https://jgvictores.github.io/
+name: Juan G. Victores (Ph.D. Candidate)
+free-text: Human Interactivity and Language Lab, University of Warsaw
+picture: wiktor-rorot.jpg
+website: https://wiktor.rorot.pl/
 ---
