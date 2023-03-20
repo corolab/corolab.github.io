@@ -50,3 +50,4 @@ collections:
         title: Visitors
         output: true
 collections_dir: _members
+repository: corolab/corolab.github.io
