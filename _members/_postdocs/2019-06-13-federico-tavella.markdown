@@ -1,7 +1,7 @@
 ---
 type: member
 name: Federico Tavella
-free-text: robotics and vision
+free-text: UKRI TAS Trust Node
 picture: FedericoTavellaPhoto.jpg
 website: https://tfederico.github.io/
 ---
