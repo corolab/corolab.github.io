@@ -1,0 +1,7 @@
+---
+type: member
+name: Giannis (Ioannis) Petousakis
+free-text: Trust in HRI via Theory of Mind
+picture: Giannis.jpeg
+website: https://www.linkedin.com/in/giannis-petousakis/
+---
