@@ -380,11 +380,6 @@ section h3.section-subheading {
     max-width: 400px;
 }
 
-#members .members-item .phd-student-item {
-    height: 360px;
-    width: 360px;
-}
-
 #members .members-item .members-link .members-hover {
     position: absolute;
     width: 100%;
