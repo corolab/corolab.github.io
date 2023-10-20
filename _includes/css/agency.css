@@ -377,6 +377,10 @@ section h3.section-subheading {
     display: block;
     position: relative;
     margin: 0 auto;
+    max-width: 400px;
+}
+
+#members .members-item .phd-student-item {
     height: 360px;
     width: 360px;
 }

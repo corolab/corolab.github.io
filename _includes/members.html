@@ -90,7 +90,7 @@
 
             {% for member in include.phds %}
             {% assign var = forloop.index0 | modulo:2 %}
-                <div class="col-md-4 col-sm-6 members-item">
+                <div class="col-md-4 col-sm-6 members-item phd-student-item">
                     <a {% if member.website %}href={{member.website}}{% endif %} class="members-link" data-toggle="modal">
                         <div class="members-hover">
                             <div class="members-hover-content">
