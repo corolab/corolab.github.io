@@ -1,4 +1,5 @@
 var $grid = $('.phd-students').masonry({
+    itemSelector: '.members-item',
     horizontalOrder: true,
     initLayout: true,
 });
