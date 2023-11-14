@@ -1,0 +1,7 @@
+---
+type: member
+name: George Angelopoulos
+free-text: Transparency in HRI
+picture: George.png
+website: 
+---
