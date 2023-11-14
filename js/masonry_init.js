@@ -15,13 +15,13 @@ var $visitingScholarGrid = $('.visiting-scholar').masonry({
 });
 
 $phdGrid.imagesLoaded().progress( function() {
-    $grid.masonry('layout');
+    $phdGrid.masonry('layout');
 });
 
 $alumniGrid.imagesLoaded().progress( function() {
-    $grid.masonry('layout');
+    $alumniGrid.masonry('layout');
 });
 
 $visitingScholarGrid.imagesLoaded().progress( function() {
-    $grid.masonry('layout');
+    $visitingScholarGrid.masonry('layout');
 });
