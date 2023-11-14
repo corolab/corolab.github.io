@@ -166,7 +166,7 @@
                 </div> -->
                 {% for member in include.visitors %}
                 {% assign var = forloop.index0 | modulo:2 %}
-                    <div class="col-md-3 col-sm-3 members-item">
+                    <div class="col-md-3 col-sm-3 members-item visiting-scholar-item">
                         <a {% if member.website %}href={{member.website}}{% endif %} class="members-link" data-toggle="modal">
                             <div class="members-hover">
                                 <div class="members-hover-content">
@@ -198,7 +198,7 @@
 
             {% for member in include.alumni %}
             {% assign var = forloop.index0 | modulo:2 %}
-                <div class="col-md-3 col-sm-3 members-item">
+                <div class="col-md-3 col-sm-3 members-item alumni-item">
                     <a {% if member.website %}href={{member.website}}{% endif %} class="members-link" data-toggle="modal">
                         <div class="members-hover">
                             <div class="members-hover-content">
