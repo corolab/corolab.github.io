@@ -1,0 +1,7 @@
+---
+type: member
+name: Giuseppe Fulvio Gaglio
+free-text: Moral mediators in the Metaverse
+picture: Fulvio.jpeg
+website: 
+---
