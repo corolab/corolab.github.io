@@ -1,0 +1,7 @@
+---
+type: member
+name: Niyati Rawal
+free-text: PERSEO project
+picture: Niyati Rawal.jpeg
+website: 
+---
