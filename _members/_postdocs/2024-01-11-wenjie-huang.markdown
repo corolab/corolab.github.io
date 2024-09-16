@@ -1,7 +1,7 @@
 ---
 type: member
 name: Wenjie Huang
-free-text: Robotic Consciousness
+free-text: PRIMI Project
 picture: WenjieHuang.jpg
-website:
+website: https://www.linkedin.com/in/wenjie-huang-316729183/?originalSubdomain=uk
 ---
