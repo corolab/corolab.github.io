@@ -1,7 +1,7 @@
 ---
 type: member
 name: Francesco Semeraro
-free-text: UKRI EPSRC/BAE Systems HRCFM
+free-text: Horizon Europe MUSAE
 picture: FrancescoSemeraroPhoto.png
 website: https://www.research.manchester.ac.uk/portal/francesco.semeraro.html
 ---
